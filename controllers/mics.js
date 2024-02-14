@@ -5,5 +5,5 @@ exports.hello = (req, res) => {
 exports.helloPost = (req, res) => {
     const requestData = req.body;
     console.log(requestData);
-    res.send('Hello POST');
+    res.send(requestData);
 };
