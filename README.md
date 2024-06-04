@@ -10,6 +10,11 @@ To run the server
 node index.js
 ```
 
+To run tests
+```
+npm test
+```
+
 ## Branching
 
 In order to setup branching process to represent different environments and get closer to a real project, here are the rules to be followed when working in this repository:
